@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<PROJECT IID="1" BUILDPATH="C:/Users/20161003304164/AppData/Local/Temp/5a2c8ff5a9924c088e6822b079dd5bf2/Arduino Uno" VERSION="814" TYPE="SOURCE" NAME="Arduino Uno" CONFIGURATION="Debug">
+ <FILES ATTACH="1">
+  <FILE ATTACH="1" GROUP="Source Files" NAME="Arduino Uno/main.ino"/>
+  <FILE ATTACH="1" GROUP="Firmware Files" NAME="Arduino Uno/Debug/Debug.elf" FIRMWARE="1"/>
+ </FILES>
+ <CONFIGURATION CRC="834538a715b239e63b455b2e5269cbdf" TARGET="Debug" COMPILER="Arduino AVR (Proteus)" NAME="Debug">
+  <CONTROLLER FAMILY="ARDUINO" TYPE="Arduino Uno"/>
+  <FILE TOOL="LD" NAME="Arduino Uno/Debug/Debug.elf">
+   <FILE TOOL="CC" NAME="Arduino Uno/Debug/main.o">
+    <FILE TOOL="APP" NAME="Arduino Uno/Debug/main.cpp">
+     <FILE NAME="Arduino Uno/main.ino"/>
+    </FILE>
+   </FILE>
+  </FILE>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="-Wl," VALUE="--gc-sections"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="" VALUE="-lm"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="-mmcu=" VALUE="atmega328p"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-W" VALUE="all"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-g" VALUE="dwarf-2"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-fno-exceptions"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-ffunction-sections"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-fdata-sections"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-D" VALUE="F_CPU=%CLOCK%"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-I " VALUE=".."/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-I " VALUE="%DRIVERS_DIR_QUOTED%"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-D" VALUE="ARDUINO_ARCH_AVR"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="" VALUE="@arduino/libs.inc"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-std=gnu++11"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-fno-threadsafe-statics"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-O" VALUE="s"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-mmcu=" VALUE="atmega328p"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-C " VALUE="%BOARD%"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-T " VALUE="-std=gnu++11"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-T " VALUE="-fno-threadsafe-statics"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-N " VALUE="atmega328p"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-F " VALUE="%CLOCK%"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-U " VALUE="%DRIVERS_QUOTED_DIR%"/>
+ </CONFIGURATION>
+ <CONFIGURATION CRC="834538a715b239e63b455b2e5269cbdf" TARGET="Release" COMPILER="Arduino AVR (Proteus)" NAME="Release">
+  <CONTROLLER FAMILY="ARDUINO" TYPE="Arduino Uno"/>
+  <FILE TOOL="LD">
+   <FILE TOOL="CC">
+    <FILE TOOL="APP">
+     <FILE NAME="Arduino Uno/main.ino"/>
+    </FILE>
+   </FILE>
+  </FILE>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="-Wl," VALUE="--gc-sections"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="" VALUE="-lm"/>
+  <OPTION DEFAULT="1" TOOL="LD" NAME="-mmcu=" VALUE="atmega328p"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-W" VALUE="all"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-g" VALUE="dwarf-2"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-fno-exceptions"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-ffunction-sections"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-fdata-sections"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-D" VALUE="F_CPU=%CLOCK%"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-I " VALUE=".."/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-I " VALUE="%DRIVERS_DIR_QUOTED%"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-D" VALUE="ARDUINO_ARCH_AVR"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="" VALUE="@arduino/libs.inc"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-std=gnu++11"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-fno-threadsafe-statics"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-O" VALUE="s"/>
+  <OPTION DEFAULT="1" TOOL="CC" NAME="-mmcu=" VALUE="atmega328p"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-C " VALUE="%BOARD%"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-T " VALUE="-std=gnu++11"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-T " VALUE="-fno-threadsafe-statics"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-N " VALUE="atmega328p"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-F " VALUE="%CLOCK%"/>
+  <OPTION DEFAULT="1" TOOL="APP" NAME="-U " VALUE="%DRIVERS_QUOTED_DIR%"/>
+ </CONFIGURATION>
+ <PROPERTY NAME="BOARD" VALUE="pro328"/>
+ <PROPERTY NAME="CLOCK" VALUE="8000000"/>
+</PROJECT>

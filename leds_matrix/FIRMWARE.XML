@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<FIRMWARE FAMILY="ARDUINO" COMPILER="Arduino AVR (Proteus)" TYPE="Arduino Uno">
+ <PROJECTS>
+  <STRING>Arduino Uno</STRING>
+ </PROJECTS>
+</FIRMWARE>
